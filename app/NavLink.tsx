@@ -2,8 +2,8 @@ import Link from "next/link"
 
 
 type Props = {
-    category: string
-    isActive: boolean
+    category: string;
+    isActive: boolean;
 }
 
 function NavLink({category, isActive}:Props) {

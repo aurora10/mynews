@@ -8,6 +8,8 @@ async function Homepage() {
 
   //use response.json || await fetchNews(categories.join(",")) to save on API calls
   const news: NewsResponse =  await fetchNews(categories.join(","));
+  //set timeout 2 seconds
+  await new Promise((resolve) => setTimeout(resolve, 2000))
   //console.log(news);
   return (
     <div>

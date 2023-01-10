@@ -15,6 +15,7 @@ type Article = {
     languages: string 
     published_at: string
     sources: string
+    source: string
     title: string
     url: string
 }

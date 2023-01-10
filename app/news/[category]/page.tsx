@@ -3,7 +3,7 @@ import NewsList from "../../NewsList"
 import { categories } from "../../../constants"
 
 type Props = {
-    params : {categoty: Category}
+    params : any
 }
 
 async function NewsCategory({params : {category}} : Props) {
